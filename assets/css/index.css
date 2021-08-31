@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0%;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.img1 img{
+    height: 15em;
+    position: absolute;
+    top: 4em;
+    left: 3em;
+}
+.img2 img{
+    height: 10em;
+    top: 22em;
+    left: 15em;
+    position: absolute;
+}
+.img3 img{
+    height: 5em;
+    left: 24em;
+    top: 4em;
+    position: absolute;
+}
+.img4 img{
+    height: 7.5em;
+    position: absolute;
+    top: 13em;
+    left: 25em;
+}
+.all-img{
+    position: absolute;
+    left: 9em;
+    top: 4em;
+}
+form{
+    width: 22.5em;
+    border-radius: 15rem;
+    height: 2.5em;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    top: 3em;
+    right: 5em;
+    position: absolute;
+    box-shadow: 0 0 5px black;
+}
+input#number{
+    width: 20em;
+    height: 3em;
+    border-radius: 15rem;
+    border: none;
+}
+input#btn{
+    width: 7em;
+    height: 3em;
+    border-radius: 15rem;
+    background: gold;
+    border: 0;
+}
+::placeholder{
+    text-align: center;
+    font-size: 1.5em;
+}
+input:focus-visible{
+    border: none;
+    outline: -webkit-focus-ring-color auto 1px;
+    outline: 0px;
+    overflow: hidden;
+}
+h1, p{
+    position: absolute;
+}
+h1{
+    font-size: 3em;
+    top: 5em;
+    width: 7em;
+    right: 4em;
+}
+p{
+    font-size: 1.3em;
+    width: 20em;
+    top: 22em;
+    left: 36em;
+    opacity: 0.5;
+}
+/* .img1{
+    border-radius: 89% 11% 45% 55% / 54% 9% 91% 46%;
+    background: green;
+    width: 20em;
+    height: 20em;
+    overflow: hidden;
+} */
